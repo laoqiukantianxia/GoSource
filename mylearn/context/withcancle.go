@@ -2,6 +2,7 @@ package main
 import (
 	"fmt"
 	"context"
+	"time"
 )
 
 /*
@@ -21,8 +22,10 @@ func withcancel() {
 		n := 1
 		go func() {
 			for {
+				fmt.Println(time.Now())
 				select {
 				case <-ctx.Done():
+					fmt.Println(ctx.Err())
 					return // returning not to leaking goroutine
 				case dst <- n:
 					n ++
@@ -34,7 +37,7 @@ func withcancel() {
 	//父context：context.Background()
 	//子context: ctx
 	ctx , cancel := context.WithCancel(context.Background())
-	defer cancel()  // cancel when we are finish consuming integers
+	//defer cancel()  // cancel when we are finish consuming integers
 
 	for n := range gen(ctx) {
 		fmt.Println(n)
@@ -42,6 +45,8 @@ func withcancel() {
 			break
 		}
 	}
+	cancel()
+	time.Sleep(5 * time.Second)
 }
 
 func main() {
