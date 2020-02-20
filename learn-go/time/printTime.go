@@ -22,3 +22,7 @@ func PriTime() {
 	fmt.Println("time.Now().Format(MyFormat): ", t.Format(MyFormat))
 
 }
+
+func main()  {
+	PriTime()
+}
