@@ -1,5 +1,8 @@
 package main
 
 func main()  {
-	helloworld()
+
+	p := new(int)
+	println(p)
+
 }

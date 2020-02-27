@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb5ab1b7-dd5f-4b96-ba44-b93bd339116f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn-go/base/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-go/example/echo1/echo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-go/example/helloworld/helloworld.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-go/example/dup/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-go/package/0_main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-go/package/1_flag.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-go/base/0_run.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn-go/base/0_main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-go/base/0_main.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn-go/base/0_main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-go/base/1_abc.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn-go/base/1_abc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-go/example/echo1/echo.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn-go/example/echo1/echo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/client/client_async.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/client/client_async.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/server.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,15 +30,28 @@
   </component>
   <component name="GOROOT" path="F:\\go1.13" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../.." />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1Y4DaiuUS5847jSlj6NTIFtfB0u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,36 +65,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build helloworld.go">
-    <configuration name="go build GoSource/learn-go/base" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build GoSource/learn-go/rpcx/abc/client/learn-go/rpc/rpcx-examples3/101basic/client">
+    <configuration name="go build GoSource/learn-go/rpcx/abc/client/learn-go/rpc/rpcx-examples3/101basic/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoSource" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/learn-go/base/helloworld.go" />
-      <package value="GoSource/learn-go/base" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/client/client.go" />
+      <package value="GoSource/learn-go/rpcx/abc/client/learn-go/rpc/rpcx-examples3/101basic/client" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build helloworld.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build client.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoSource" />
-      <working_directory value="$PROJECT_DIR$/" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learn-go/example/helloworld/helloworld.go" />
+      <filePath value="$PROJECT_DIR$/learn-go/rpcx/registry/multiple/client/client.go" />
       <package value="GoSource" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build printTime.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="GoSource" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/learn-go/time/printTime.go" />
+      <filePath value="$PROJECT_DIR$/learn-go/rpcx/abc/client/client.go" />
+      <package value="GoSource" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoSource" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/learn-go/rpcx/registry/multiple/server.go" />
+      <package value="GoSource" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="GoSource" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/learn-go/rpc/rpcx-examples3/101basic/server.go" />
+      <package value="GoSource/learn-go/rpcx/abc/client" />
+      <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build helloworld.go" />
-        <item itemvalue="Go Build.go build GoSource/learn-go/base" />
-        <item itemvalue="Go Build.go build printTime.go" />
+        <item itemvalue="Go Build.go build GoSource/learn-go/rpcx/abc/client/learn-go/rpc/rpcx-examples3/101basic/client" />
+        <item itemvalue="Go Build.go build server.go (2)" />
+        <item itemvalue="Go Build.go build client.go (1)" />
+        <item itemvalue="Go Build.go build server.go (1)" />
+        <item itemvalue="Go Build.go build client.go" />
       </list>
     </recent_temporary>
   </component>
@@ -94,6 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io</proxy>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
